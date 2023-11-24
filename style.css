@@ -1,0 +1,71 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&family=Roboto:wght@100&display=swap');
+
+
+body{
+    background-image: url("./assets/bg.png");
+    font-family: 'poppins';
+}
+
+#playbutton{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    padding-left:13vw ;
+    font-weight: 600; 
+}
+
+#playbutton img{
+    width:5vw;
+    padding-right: 5px;
+}
+
+#log img{
+    width:38vw;
+    /* height: 50vw; */
+}
+#maindiv{
+    display: flex;
+}
+
+#headname{
+    color:rgb(90,37,192);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-size: 5vw;
+}
+#headdiv{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:500px){
+    #maindiv{
+        display: block;
+    }
+    #log{
+        display: flex;
+        justify-content: center;
+        padding-top: 20vw;
+    }
+    #log img{
+        width: 95vw;
+    }
+    #playbutton{
+        padding-top: 30vw;
+        font-size: 7vw;
+        padding-right: 10vw;
+    }
+    
+#playbutton img{
+    width:15vw;
+    padding-right: 5px;
+}
+#headname{
+    font-size: 10vw;
+    padding-top:10vw ;
+    font-style: italic;
+}
+
+
+}
